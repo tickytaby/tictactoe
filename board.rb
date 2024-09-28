@@ -35,7 +35,6 @@ class Board
        (@grid[2][0] == @grid[1][1] && @grid[1][1] == @grid[0][2] && @grid[2][0] != ' ')
       count += 1
     end
-    puts "Win condition count is at #{count}"
     count >= 1
   end
 end
