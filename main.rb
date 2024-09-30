@@ -1,6 +1,6 @@
-require_relative 'player'
-require_relative 'board'
-require_relative 'game'
+require_relative 'lib/player'
+require_relative 'lib/board'
+require_relative 'lib/game'
 
 start = Game.new
 start.play
